@@ -13,10 +13,6 @@ Text Domain:  accelerate-theme-child
 
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
-    height: auto;
-    margin: 0 0 5em;
-    padding: 8em 0;
-    text-align: center;
 }
 
 
@@ -29,11 +25,51 @@ Text Domain:  accelerate-theme-child
     background: none repeat scroll 0 0 #45ac9d;
 }
 
+/* Homepage Featured Work */
+
+.featured-work {
+	width: 100%;
+	text-align:center;
+	margin: 0 auto;
+	padding: 0 2em;
+	clear: both;
+}
+
+
+.featured-work ul {
+	list-style-type:none;
+}
+
+.featured-work h4 {
+	font: 400 1.25em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+.featured-work h3 {
+	font: 400 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+	text-align: center;
+	padding-top: .25em;
+	margin-top: 0;
+}
+
+.individual-featured-work a {
+	display: block;
+}
+
+.individual-featured-work {
+    	float: left;
+        width: 33%;
+        padding: 0 .5em;
+    }
+
+/* Homepage From the Blog */
 
 .blog-post {
 	width: 50%;
 	float: left;
-	margin-bottom: 2em;
+	margin: 2em 0 .5em;
+	clear:both;
+	
 }
 
 
@@ -55,4 +91,75 @@ Text Domain:  accelerate-theme-child
 	font-weight: 700;
 	color: #45ac9d;
 	text-transform: uppercase;
+	margin: 1em 0 .5em;
 }
+
+/* Twitter Info */
+
+.twitter-feed {
+	width: 30%;
+	float: left;
+	margin: 2em 0 .5em 3em;
+	
+}
+
+
+.twitter-feed h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+
+/* Mailchimp Case study */
+
+
+.case-study-sidebar {
+	width: 300px;
+	float:left;
+	display: block;
+	padding-right: 30px;
+	clear: both;
+}
+
+.case-study-sidebar h2 {
+	font: 400 1.25em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+}
+
+.case-study-sidebar h4 {
+	font: 400 .75em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: gray;
+    text-transform: none;
+    margin: 0 0 3em;
+}
+
+.case-study-sidebar span {
+	font: 400 1.1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: black;
+    text-transform: none;
+    margin: .5em 0 .5em;
+}
+
+
+.mailchimp-img {
+	width: 600px;
+	float: right;
+	display: block;
+	padding-left: 30px;
+	padding-bottom: 50px;
+
+
+}
+
+.mailchimp-img img {
+	width: 100%;
+	height: auto;
+}
+
+/* Archive of Case studies */
+
+.main-content-archives {
+   vertical-align: top;
+   padding: 4em 0 0 0;
+}
+
