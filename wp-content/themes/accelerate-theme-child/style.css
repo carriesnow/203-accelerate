@@ -163,3 +163,103 @@ Text Domain:  accelerate-theme-child
    padding: 4em 0 0 0;
 }
 
+/* Contact Form */
+
+
+#nf-field-4 {
+    font-family: 'Montserrat';
+	font-weight: 400;
+	margin: 1em 0 .5em;
+	color: white;
+    background: #45ac9d;
+    border: 0;
+    transition: all .5s;
+}
+
+.site-content-contact {
+	 margin: auto;
+	 width: 50%;
+	
+}
+
+ /* About us Page */
+
+
+ #one-third {
+ 	width: 33%;
+ 	float: left;
+ 	margin: auto;
+ 	display: block;
+ 	text-align: left;
+
+ }
+
+ #two-thirds {
+ 	width: 66%;
+ 	float: left;
+ 	margin: auto;
+ 	display: block;
+ 	text-align: left;
+
+
+ }
+
+.main-content-about h3 {
+	color: #fff;
+    font-family: 'Open Sans';
+    font-size: 1.4em;
+    font-weight: normal;
+    margin: auto;
+    text-align: center;
+    width: 40%;
+}
+
+.main-content-about h4{
+	padding: 2em 0 0 0;
+
+}
+
+.about-page {
+	background: url("img/taxi-photo.jpg") no-repeat scroll right bottom / cover rgba(0, 0, 0, 0);
+    height: auto;
+    margin: 0 0;
+    text-align: left;
+    padding: 4em 0;
+}
+
+.our-services h4{
+	text-transform: uppercase;
+}
+
+.our-services p{
+	color: #3b3b3b;
+    font: 17px/1.0 'Open Sans', Arial, sans-serif;
+    margin: 1em auto;
+    padding: 0 2em;
+}
+
+.our-services {
+	width: 70%;
+	text-align:center;
+	margin: auto;
+	padding-top: 0;
+	padding-bottom: 2em;
+}
+
+#about-image {
+	width: 100%;
+	height: auto;
+	padding: 2em 2em 0 2em;
+}
+
+.service-details {
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    align-items: center;
+}
+
+.service-details:nth-child(even) {
+    -webkit-flex-direction: row-reverse; /* Safari 6.1+ */
+    flex-direction: row-reverse;
+
+}
