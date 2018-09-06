@@ -36,11 +36,13 @@ get_header(); ?>
 		<?php while ( have_posts() ) : the_post(); 
 			$image = get_field('image');
 			$size = "medium"; ?>
-			
+</section>
+
+<section class="service-details">			
 		<div id="one-third">
 			<figure id="about-image">
 			<?php if($image){ 
-			echo wp_get_attachment_image( $image, $size);
+			echo wp_get_attachment_image($image, $size);
 			} ?>
 			</figure>
 		</div>
@@ -54,6 +56,16 @@ get_header(); ?>
 			<?php endwhile; // end of the loop. ?>
 	</div><!-- .main-content -->
 	</div><!-- #primary -->
+
+
+<section class="about-cta">
+	<div class="cta-left">
+		<h2>Interested in working with us?</h2>
+	</div>
+	<div class="cta-right">
+		<a class="button" href="<?php echo site_url('/contact-us/') ?>">Contact Us</a>
+	</div>
+</section>
 
 <?php get_footer(); ?>
 
